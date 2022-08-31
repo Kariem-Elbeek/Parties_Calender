@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="icons-1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="home">
+        <div class="overlay d-flex">
+            <div id="sidebar" class="d-flex">
+                <div id="innerBar" class="d-flex">
+                    <div id="itemsbar" class="px-3">
+                        <a id="HomeLink" class="d-block m-3">Home</a>
+                        <a id="DetailsLink" class="d-block m-3">Details</a>
+                        <a id="DurationLink" class="d-block m-3">Duration</a>
+                        <a id="ContactLink" class="d-block m-3">Contact</a>
+                    </div>
+                    <div id="closeBtnBox" class="ms-2 p-3">
+                        <span id="closeBtn">X</span>
+                    </div>    
+                </div>
+                <div id="menuBtnBox" class="d-flex justify-content-between align-items-center">
+                    <i id="menuBtn" class="bi bi-list d-inline-block px-1"></i>
+                    <span id="openBtn" class="d-inline-block px-1">Open</span>
+                </div>    
+            </div>
+            <div id="homeContainer" class="w-100 d-flex align-items-center justify-content-center">
+                <div id="homecontent">
+                    <h1 class="text-center">Egyptian Party</h1>
+                    <h6 class="text-center">Let's have Fun</h6>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="partySection" class="d-flex align-items-center py-5">
+        <div id="partyMenu" class="w-50 m-auto text-center my-5">
+            <div class="partySegment">
+                <h3>one</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, dolores illum! Numquam, officiis. Illo a iste rerum ipsum corporis tenetur.</p>
+            </div>
+            <div class="partySegment">
+                <h3>two</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, dolores illum! Numquam, officiis. Illo a iste rerum ipsum corporis tenetur.</p>
+            </div>
+            <div class="partySegment">
+                <h3>three</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, dolores illum! Numquam, officiis. Illo a iste rerum ipsum corporis tenetur.</p>
+            </div>
+            <div class="partySegment">
+                <h3>four</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, dolores illum! Numquam, officiis. Illo a iste rerum ipsum corporis tenetur.</p>
+            </div>
+        </div>
+    </section>
+    <section id="counterSection" class="py-5 my-5">
+        <div class="overlay d-flex justify-content-center align-items-center">
+            <div class="container d-flex justify-content-center align-items-center">
+                <div id="counterContainer" class="row w-100 align-items-center gx-3">
+                    <div class="sCounter col-3">
+                        <div class="pBox px-3">
+                            <div class="borderBox d-flex justify-content-center align-items-center w-100 h-100 border border-1">
+                                <h3 id="dayCounter"></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sCounter col-3">
+                        <div class="pBox px-3">
+                            <div class="borderBox d-flex justify-content-center align-items-center w-100 h-100 border border-1">
+                                <h3 id="hourCounter"></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sCounter col-3">
+                        <div class="pBox px-3">
+                            <div class="borderBox d-flex justify-content-center align-items-center w-100 h-100 border border-1">
+                                <h3 id="minuteCounter"></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sCounter col-3">
+                        <div class="pBox px-3">
+                            <div class="borderBox d-flex justify-content-center align-items-center w-100 h-100 border border-1">
+                                <h3 id="secondCounter"></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="JoinUsSection" class="container py-5 my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Join Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, sequi.</p>
+                <h3>contact info</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, laudantium! Officia iusto esse fuga consequatur?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p>email@email.com</p>
+                <p>0100000000000</p>
+                <div id="iconsContainer" class="d-flex">
+                    <div class="icon px-2 border border-1 mx-1"><i class="bi bi-facebook"></i></div>
+                    <div class="icon px-2 border border-1 mx-1"><i class="bi bi-twitter"></i></div>
+                    <div class="icon px-2 border border-1 mx-1"><i class="bi bi-google"></i></div>
+                    <div class="icon px-2 border border-1 mx-1"><i class="bi bi-github"></i></div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <form action="" class="">
+                    <input type="text" class="form-control my-2">
+                    <input type="emain" class="form-control">
+                    <textarea name="" id="textInput" cols="30" rows="10" class="my-3 form-control"></textarea>
+                    <p><span id="count100">100</span> Character Remaining</p>
+                    <button id="sendBtn" class="btn btn-danger">send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

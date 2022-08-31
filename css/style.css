@@ -1,0 +1,79 @@
+/* Home */
+#home{
+    position: relative;
+    height: 100vh;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    background-color: rgba(255, 0, 0, .5);
+}
+
+#sidebar {
+    /* position: absolute; */
+    /* left: 0;
+    top: 0;
+    bottom: 0; */
+    height: 100%;
+    width: fit-content;
+    /* transition: all 1; */
+}
+
+#innerbar {
+    background-color: black;
+    overflow: hidden;
+    width: 0px;
+}
+#menuBtnBox{
+    height: 40px;
+    transform: translateY(50vh);
+    cursor: pointer;
+}
+
+#menuBtn, #openBtn{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#itemsbar a, #closeBtn{
+    text-decoration: none;
+    color: white;
+    font-size: 22;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* Party Section */
+.partySegment h3{
+    background-color: rgba(255, 99, 71, 0.8);
+    margin: 0;
+}
+
+.partySegment p{
+    background-color: lightgray;
+    margin: 0;
+    display: none;
+}
+
+/* Counter Segment */
+#counterSection {
+    position: relative;
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center center; 
+    height: 250px;   
+}
+
+
+.pBox {
+    height: 150px;
+}
+
+/* last Section */
+
